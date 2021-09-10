@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    color: #B9CEF0;
+    font-family: 'Raleway', sans-serif;
+    background: rgb(53,76,112);
+    background: linear-gradient(180deg, rgba(53,76,112,1) 16%, rgba(86,96,112,1) 49%);
+}
+
+.avatar {
+    width: 80px;
+    border-radius: 80px 200px 80px 200px;
+    border: 1px solid #B9CEF0;
+    box-shadow: 0 0 20px #B9CEF0;
+}
+
+.nome {
+    font-family: 'Indie Flower', cursive;
+    font-weight: 100;
+}
+
+.profile {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.social {
+    /*só é possivel usar o justify-content com o display-flex*/
+    display: flex;
+    justify-content: space-around;
+
+    list-style: none;
+    margin: 25px 0;
+}
+
+.social i {
+    font-size: 33px;
+    color: #B9CEF0;
+}
+
+/*links-list*/
+
+.links-list {
+    width: 95%;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.links-list li {
+    background-color: #1B2B40;
+    margin-bottom: 10px;
+    border-radius:7px;
+    padding: 15px 20px;
+    border: 1px solid #B9CEF0;
+    box-shadow: 0 0 20px #B9CEF0;
+}
+
+.links-list a {
+    text-decoration: none;
+    color:#fff;
+    font-weight: bold;
+}
+
+.links-list span {
+    color: #B9CEF0;
+    display: block; /*deixar um em baixo do outro*/
+    margin-top: 5px;
+    font-weight: 100;
+}
