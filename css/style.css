@@ -15,6 +15,7 @@ body {
     font-family: 'Raleway', sans-serif;
     background: rgb(53,76,112);
     background: linear-gradient(180deg, rgba(53,76,112,1) 16%, rgba(86,96,112,1) 49%);
+    background-attachment:fixed;
 }
 
 .avatar {
@@ -61,6 +62,9 @@ body {
     margin-bottom: 10px;
     border-radius:7px;
     padding: 15px 20px;
+}
+
+.links-list .list1 li {
     border: 1px solid #B9CEF0;
     box-shadow: 0 0 20px #B9CEF0;
 }
@@ -76,4 +80,8 @@ body {
     display: block; /*deixar um em baixo do outro*/
     margin-top: 5px;
     font-weight: 100;
+}
+
+.list2 {
+    margin-top: 40px;
 }
